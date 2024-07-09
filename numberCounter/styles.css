@@ -1,0 +1,35 @@
+body {
+  padding: 25px;
+  background: white;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Add some space between elements */
+}
+
+h1#result {
+  font-size: 5rem; /* Increase font size for better visibility */
+  margin: 0; /* Remove default margin */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #5C6AC4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a5cb8; /* Darker color on hover */
+}
