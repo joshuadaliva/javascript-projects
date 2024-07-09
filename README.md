@@ -12,16 +12,13 @@ Here’s a list of my JavaScript projects with brief descriptions:
 
 | Project          | Description                                    | Links                |
 |------------------|------------------------------------------------|----------------------|
-| [**Project 1**](./project1) | A simple to-do list application using Vanilla JavaScript. | [Live Demo](https://example.com) |
-| [**Project 2**](./project2) | A weather app that fetches data from a weather API. | [Live Demo](https://example.com) |
-| [**Project 3**](./project3) | An interactive quiz game with questions and scoring. | [Live Demo](https://example.com) |
+| [**Project 1**](./project1) | A simple Number Counter application using Vanilla JavaScript. | [Live Demo](https://joshuadaliva.github.io/javascript-projects/numberCounter/) |
 
 ## 🛠️ Technologies Used
 
 - **JavaScript**: The core language for all projects.
 - **HTML** & **CSS**: For structuring and styling the applications.
-- **APIs**: Fetching data from external sources.
-- **Node.js** & **Express**: For backend functionalities (if applicable).
+  
 
 ## 🎯 Learning Goals
 
@@ -47,12 +44,3 @@ If you have suggestions for improvements, bug fixes, or new ideas, feel free to:
 1. **Open an Issue**: Report bugs or request features.
 2. **Submit a Pull Request**: Contribute code improvements or fixes.
 
-
-```javascript
-// Function to greet a user
-function greetUser(name) {
-  return `Hello, ${name}! Welcome to my JavaScript projects.`;
-}
-
-// Call the function
-console.log(greetUser('Alice'));
