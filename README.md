@@ -12,7 +12,7 @@ Here’s a list of my JavaScript projects with brief descriptions:
 
 | Project          | Description                                    | Links                |
 |------------------|------------------------------------------------|----------------------|
-| [**Project 1**](./project1) | A simple Number Counter application using Vanilla JavaScript. | [Live Demo](https://joshuadaliva.github.io/javascript-projects/numberCounter/) |
+| [**Project 1**](./numberCounter) | A simple Number Counter application using Vanilla JavaScript. | [Live Demo](https://joshuadaliva.github.io/javascript-projects/numberCounter/) |
 
 ## 🛠️ Technologies Used
 
