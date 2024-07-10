@@ -1,0 +1,33 @@
+
+//Math
+// console.log(Math.PI)
+// console.log(Math.E)
+
+let x = 4
+let y = 12
+let z = 123
+
+
+// x = Math.round(x) //round off to the neareset integer
+// x = Math.floor(x) //always round down number
+// x = Math.ceil(x) //always round up number
+// x = Math.trunc(x) // removes all the decimal
+// x = Math.pow(x,2) //exponent takes two arguments
+// x = Math.sqrt(x) // square root
+// x = Math.abs(x) //removes the sign like negative
+// x = Math.sign(x) // finds the sign by returning a positive or negative value
+// x = Math.max(x,y) //find the largest number
+// x = Math.min(x,y,z) //finds the lowest number
+// x = Math.floor(Math.random() * 100) // provides a random integer with float
+
+// let min = 5
+// let max = 10
+// const randomNumber = Math.random() * (max-min) + 5;
+// //step by step proccess
+// // 1. 10 - 5 = 5
+// // 2. math.random generates from  0 - 1 not including 1 then * 5
+// // 3. after generating it adds to 5
+
+
+// console.log(x)
+  
