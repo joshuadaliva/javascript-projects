@@ -10,6 +10,7 @@ html,body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 20px;
 }
 form{
 	display: flex;
@@ -19,4 +20,41 @@ form{
 }
 input{
 	padding: 10px;
+}
+button {
+    background-color: #8A2BE2; /* Violet background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get it to display properly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #7a1a7a; /* Darker violet */
+    transform: scale(1.05); /* Slightly increase size */
+}
+input[type="number"] {
+    background-color: #fff; /* White background */
+    border: 2px solid #8A2BE2; /* Violet border */
+    color: #333; /* Dark text color */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Max width */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+#container{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

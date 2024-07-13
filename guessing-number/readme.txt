@@ -1,12 +1,14 @@
 // if , else if, else statement
 // ternary operator
+
 // switch 
 // string methods
-// let name = 'jo-sh-u-a'
+// let name = 'jo-ash-u-a'
 // console.log(name.charAt(2)) // get the character in the string
 // console.log(name.indexOf('a'))  //gets the index of a string
 // console.log(name.lastIndexOf("a")) //gets the last character 
-// console.log(name.length) //gets the length of the string
+// console.l
+og(name.length) //gets the length of the string
 // console.log(name.trim()) //removes any whitespace around
 // console.log(name.toLowerCase()) //change from lower case
 // console.log(name.toUpperCase()) //change from the upper case
@@ -31,8 +33,7 @@
 //method chaining - the process of calling one method after another 
 
 // let userName = ' joshUa'
-// let chain = userName.trim().charAt(0).toUpperCase()
-// console.log(chain)
+// let chain = userName.trim().charAt(0).toUpperCase() + userName.trim().slice(1).toLowerCase()
 
 
 //logical operator use to combine or manipulate boolean values  AND = && OR = || NOT = !
