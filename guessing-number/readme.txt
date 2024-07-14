@@ -36,6 +36,7 @@ og(name.length) //gets the length of the string
 // let chain = userName.trim().charAt(0).toUpperCase() + userName.trim().slice(1).toLowerCase()
 
 
+
 //logical operator use to combine or manipulate boolean values  AND = && OR = || NOT = !
 //while loop and do while loop
 //for loop
