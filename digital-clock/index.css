@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #a2c2e2, #d0f0fd); /* Light gradient background */
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+.clock {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    transition: background-color 0.5s;
+}
+
+.am-background {
+    background: rgba(255, 255, 255, 0.2); /* Lighter background for AM */
+}
+
+.pm-background {
+    background: rgba(0, 0, 0, 0.2); /* Darker background for PM */
+}
+
+.clock p {
+    margin: 0;
+}
+.period{
+    padding-left: 15px;
+}
