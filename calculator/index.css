@@ -1,0 +1,115 @@
+html,body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, #a2c2e8, #f4e0d3);
+    font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+    background: hsl(0, 0%, 15%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 10px;
+    width: 240px; /* Further reduced width */
+}
+
+#display {
+    width: 100%;
+    height: 45px; /* Slightly reduced height */
+    font-size: 1.4em; /* Slightly smaller font size */
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.btn {
+    height: 45px; /* Slightly reduced height */
+    font-size: 1.1em; /* Smaller font size */
+    border: none;
+    background-color:  hsl(0, 0%, 30%);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 100px;
+    margin: 2px;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+.btn:active {
+    background-color: #666;
+}
+
+button.operator {
+    background-color: #555;
+}
+
+button.operator:hover {
+    background-color: #666;
+}
+
+button.operator:active {
+    background-color: #777;
+}
+
+button.equals {
+    background-color: #f39c12;
+    color: #000;
+    grid-column: span 2;
+}
+
+button.equals:hover {
+    background-color: #e67e22;
+}
+
+button.equals:active {
+    background-color: #d35400;
+}
+
+button.clear {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+button.clear:hover {
+    background-color: #c0392b;
+}
+
+button.clear:active {
+    background-color: #a93226;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    #display {
+        font-size: 1.2em;
+        height: 40px;
+    }
+
+    .btn {
+        font-size: 1em;
+        height: 40px;
+    }
+
+    button.equals {
+        font-size: 1em;
+    }
+}
+
