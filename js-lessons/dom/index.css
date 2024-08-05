@@ -1,0 +1,17 @@
+#btn{
+	padding: 3rem;
+	border: none;
+	border-radius: 10px;
+}
+
+.disabled{
+	background: grey;
+}
+.myButtons{
+	padding: 3rem;
+	border: none;
+	border-radius: 10px;
+}
+.enabled{
+	background: hsl(204, 100%, 50%);
+}
